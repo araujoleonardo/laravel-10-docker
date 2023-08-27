@@ -4,14 +4,15 @@
 ### Exemplo de configuração para o .env
 
 ```
-APP_URL=http://localhost:8080
+APP_URL=http://localhost
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=db_name
-DB_USERNAME=root
-DB_PASSWORD=root
+DB_DATABASE=db-name
+DB_USERNAME=admin
+DB_PASSWORD=admin
+DB_ROOT_PASSWORD=root
 
 CACHE_DRIVER=redis
 QUEUE_CONNECTION=redis
